@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.side .text{
+    color: rgb(0, 0, 0);
+    font-family: 'Balthazar', serif;
+    font-size: 70px;
+    margin: 0px 15vmax;
+    width: 70vmax;
+    text-align: center;
+}
+
+.side{
+    height: 50vmin;
+    width: 100%;
+    
+    display: grid;
+    place-items: center;
+    
+    overflow: hidden;
+    position: absolute;
+}
+#right{
+    z-index: 2;
+    background-color: rgb(255, 217, 0);
+}
+#left{
+    background-color: rgb(119, 0, 255);
+}
+#left > .text{
+    color: white;
+}
+.fanse{
+    font-family: 'Balthazar', serif;
+}
+#left > .text .fanse{
+    color: rgb(255, 196, 0);
+}
+#right > .text .fanse{
+    color: rgb(119, 0, 255);
+}

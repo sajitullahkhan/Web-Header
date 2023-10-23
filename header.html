@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balthazar&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="header.css">
+</head>
+
+<body>
+    <header>
+        <div id="right" class="side">
+            <h1 class="text">
+                <span class="fanse">Sajit</span> Ullah Khan
+            </h1>
+        </div>
+        <div id="left" class="side">
+            <h1 class="text">
+                <span class="fanse">Sifat</span> Ullah Khan
+            </h1>
+        </div>
+    </header>
+
+
+    <script>
+        let mouseMove = e => {
+            let p = e.clientX / window.innerWidth * 100;
+            right.style.width = `${p}%`;
+        }
+        document.onmousemove = e => mouseMove(e);
+        
+    </script>
+</body>
+
+</html>
