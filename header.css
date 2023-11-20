@@ -26,18 +26,23 @@
     z-index: 2;
     background-color: rgb(255, 217, 0);
 }
+
 #left{
     background-color: rgb(119, 0, 255);
 }
+
 #left > .text{
     color: white;
 }
+
 .fanse{
     font-family: 'Balthazar', serif;
 }
+
 #left > .text .fanse{
     color: rgb(255, 196, 0);
 }
+
 #right > .text .fanse{
     color: rgb(119, 0, 255);
 }
