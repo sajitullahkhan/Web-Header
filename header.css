@@ -35,14 +35,14 @@
     color: white;
 }
 
-.fanse{
-    font-family: 'Balthazar', serif;
+.fancy{
+    font-family: 'Pacifico', cursive;
 }
 
-#left > .text .fanse{
+#left > .text .fancy{
     color: rgb(255, 196, 0);
 }
 
-#right > .text .fanse{
+#right > .text .fancy{
     color: rgb(119, 0, 255);
 }
