@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.side .text{
+.side .text {
     color: rgb(0, 0, 0);
     font-family: 'Balthazar', serif;
     font-size: 70px;
@@ -12,37 +12,46 @@
     text-align: center;
 }
 
-.side{
+.side {
     height: 50vmin;
     width: 100%;
-    
+
     display: grid;
     place-items: center;
-    
+
     overflow: hidden;
     position: absolute;
 }
-#right{
+
+#right {
     z-index: 2;
     background-color: rgb(255, 217, 0);
 }
 
-#left{
+#left {
     background-color: rgb(119, 0, 255);
 }
 
-#left > .text{
+#left>.text {
     color: white;
 }
 
-.fancy{
+.fancy {
     font-family: 'Pacifico', cursive;
 }
 
-#left > .text .fancy{
+#left>.text .fancy {
     color: rgb(255, 196, 0);
 }
 
-#right > .text .fancy{
+#right>.text .fancy {
     color: rgb(119, 0, 255);
+}
+
+@media screen and (max-width: 850px) {
+    .side .text {
+        font-size: 10vw;
+        margin: auto;
+        width: 100vw;
+    }
 }
